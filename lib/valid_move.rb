@@ -3,7 +3,7 @@ board = [""]
 index = 0
 
 def valid_move(array, index)
-  if position_taken?
+  if position_taken? == true
     return false
   else
     return true
