@@ -2,7 +2,7 @@
 board = [""]
 index = 0
 
-def valid_move(position_taken)
+def valid_move(position_taken?)
   if position_taken?
     puts "true"
     return true
