@@ -14,7 +14,7 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
-
+move = gets.strip 
 def position_taken?(array, index)
  array.each.with_index(1) do |value, idx|
    if value == "" || value == " " || value == nil
@@ -26,5 +26,4 @@ def position_taken?(array, index)
    end
   end
  end
-move = gets.strip 
 valid_move(move)
