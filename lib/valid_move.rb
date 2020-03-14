@@ -27,4 +27,4 @@ def position_taken?(array, index)
   end
  end
 
- valid_move(position_taken?(board, index))
+ valid_move(board)
