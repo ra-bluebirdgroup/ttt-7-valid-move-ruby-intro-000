@@ -2,7 +2,7 @@
 board = [""]
 index = 0
 
-def valid_move(Input)
+def valid_move(array, index)
   if position_taken?
     return false
   else
