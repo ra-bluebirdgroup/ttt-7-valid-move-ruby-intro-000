@@ -3,7 +3,7 @@ board = [""]
 index = 0
 
 def valid_move(move)
-  if position_taken?
+  if position_taken?(array, index)
     puts "true"
     return true
 
@@ -14,7 +14,7 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
-move = gets.strip 
+move = gets.strip
 def position_taken?(array, index)
  array.each.with_index(1) do |value, idx|
    if value == "" || value == " " || value == nil
