@@ -26,5 +26,5 @@ def position_taken?(array, index)
    end
   end
  end
-move = get.strip 
+move = gets.strip 
 valid_move(move)
