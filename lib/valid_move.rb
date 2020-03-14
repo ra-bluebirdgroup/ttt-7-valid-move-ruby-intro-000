@@ -3,12 +3,12 @@ board = [""]
 index = 0
 
 def valid_move(position_taken)
-  if position_taken?
+  if position_taken? == true
     puts "true"
     return true
 
   else
-    return false 
+    return false
   end
 end
 
