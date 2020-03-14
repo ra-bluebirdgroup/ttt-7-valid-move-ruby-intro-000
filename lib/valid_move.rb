@@ -2,11 +2,13 @@
 board = [""]
 index = 0
 
-def valid_move(array, index)
-  if position_taken? == true
-    return false
-  else
+def valid_move(position_taken)
+  if position_taken?
+    puts "true"
     return true
+
+  else
+    return false 
   end
 end
 
